@@ -18,6 +18,27 @@ This is a simple full-stack Employee Directory application built as part of an a
 - backend/ - API and database logic
 - frontend/ - React frontend application
 
+## Database Setup (MySQL)
+
+This project uses MySQL to store employee data.
+
+### Create Database and Table
+
+1. Open MySQL terminal or MySQL Workbench
+2. Run the following commands:
+
+```sql
+CREATE DATABASE employee_directory;
+USE employee_directory;
+
+CREATE TABLE employees (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  role VARCHAR(100),
+  department VARCHAR(100),
+  email VARCHAR(100)
+);
+
 ## How to Run the Project
 
 ### Backend
