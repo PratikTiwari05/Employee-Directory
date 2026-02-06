@@ -39,6 +39,17 @@ CREATE TABLE employees (
   email VARCHAR(100)
 );
 
+```
+
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+DB_NAME=employee_directory
+PORT=5000
+
+Note: .env file is not committed to GitHub for security reasons.
+```
 ## How to Run the Project
 
 ### Backend
