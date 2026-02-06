@@ -1,6 +1,6 @@
 # Employee Directory
 
-This is a simple full-stack Employee Directory application built as part of an assignment.
+This is an  Employee Directory application built as part of an assignment.
 
 ## Features
 - View list of employees
